@@ -780,34 +780,10 @@ F 13 "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_ON-Semiconduct
 	1    2925 1825
 	0    1    1    0   
 $EndComp
-$Comp
-L Pardo-rescue:MBR0520LT1G-dk_Diodes-Rectifiers-Single D2
-U 1 1 5E9E757D
-P 3175 1825
-F 0 "D2" V 3175 1928 60  0000 L CNN
-F 1 "MBR0520LT1G" V 3228 1928 60  0001 L CNN
-F 2 "digikey-footprints:SOD-123" H 3375 2025 60  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 3375 2125 60  0001 L CNN
-F 4 "MBR0520LT1GOSCT-ND" H 3375 2225 60  0001 L CNN "Digi-Key_PN"
-F 5 "MBR0520LT1G" H 3375 2325 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 3375 2425 60  0001 L CNN "Category"
-F 7 "Diodes - Rectifiers - Single" H 3375 2525 60  0001 L CNN "Family"
-F 8 "http://www.onsemi.com/pub/Collateral/MBR0520LT1-D.PDF" H 3375 2625 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/MBR0520LT1G/MBR0520LT1GOSCT-ND/917965" H 3375 2725 60  0001 L CNN "DK_Detail_Page"
-F 10 "DIODE SCHOTTKY 20V 500MA SOD123" H 3375 2825 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 3375 2925 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3375 3025 60  0001 L CNN "Status"
-	1    3175 1825
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2925 1550 2925 1625
 Wire Wire Line
-	3175 1550 3175 1625
-Wire Wire Line
 	2925 2025 2925 2100
-Wire Wire Line
-	3175 2025 3175 2100
 $Comp
 L Custom_lib:TPS73733DCQR U2
 U 1 1 5EAAAC14
@@ -1362,4 +1338,6 @@ Wire Wire Line
 Text Notes 6775 2100 0    47   ~ 0
 User \nLED
 NoConn ~ 4075 2200
+Wire Wire Line
+	3175 1550 3175 2100
 $EndSCHEMATC
