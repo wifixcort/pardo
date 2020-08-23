@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 73)
+    (drawings 74)
     (tracks 576)
     (zones 0)
     (modules 42)
@@ -41,7 +41,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.2032)
     (user_trace_width 0.25)
     (trace_clearance 0.15)
     (zone_clearance 0.254)
@@ -3175,6 +3175,9 @@
     (pad 1 np_thru_hole circle (at 0 0 90) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text . (at 152.1206 94.7293) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text +3V (at 170.6245 101.4095 90) (layer B.SilkS) (tstamp 5EBF3CCE)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
@@ -3379,7 +3382,6 @@
   (gr_line (start 126.6571 81.7499) (end 172.4787 81.7499) (layer Edge.Cuts) (width 0.15) (tstamp 5EBF371C))
   (gr_line (start 124.2187 102.1715) (end 124.2187 84.2811) (layer Edge.Cuts) (width 0.15) (tstamp 5EBF3719))
 
-  (via (at 154.3558 84.8741) (size 0.4) (drill 0.2) (layers F.Cu B.Cu) (net 2) (tstamp 5F3EDB18))
   (segment (start 149.1869 93.8075) (end 148.837672 94.156728) (width 0.2032) (layer F.Cu) (net 1) (tstamp 5EBF3ED5))
   (segment (start 149.1869 91.1987) (end 149.1869 93.8075) (width 0.2032) (layer F.Cu) (net 1) (tstamp 5EBF3497))
   (segment (start 152.3477 91.6011) (end 151.17519 91.6011) (width 0.2032) (layer F.Cu) (net 1) (tstamp 5EBF355D))
@@ -3387,6 +3389,7 @@
   (segment (start 150.56959 90.9955) (end 149.3901 90.9955) (width 0.2032) (layer F.Cu) (net 1) (tstamp 5EBF3557))
   (segment (start 151.17519 91.6011) (end 150.56959 90.9955) (width 0.2032) (layer F.Cu) (net 1) (tstamp 5EBF3554))
   (segment (start 149.3901 90.9955) (end 149.1869 91.1987) (width 0.2032) (layer F.Cu) (net 1) (tstamp 5EBF3551))
+  (via (at 154.3558 84.8741) (size 0.4) (drill 0.2) (layers F.Cu B.Cu) (net 2) (tstamp 5F3EDB18))
   (segment (start 143.5107 97.7519) (end 145.0467 96.2159) (width 0.3032) (layer F.Cu) (net 2) (tstamp 5EBF354E))
   (segment (start 142.7107 97.7519) (end 143.5107 97.7519) (width 0.3032) (layer F.Cu) (net 2) (tstamp 5EBF354B))
   (segment (start 145.0467 94.1451) (end 145.0721 94.1197) (width 0.3032) (layer F.Cu) (net 2) (tstamp 5EBF3548))

@@ -1361,4 +1361,5 @@ Wire Wire Line
 	10500 5900 10500 6125
 Text Notes 6775 2100 0    47   ~ 0
 User \nLED
+NoConn ~ 4075 2200
 $EndSCHEMATC
