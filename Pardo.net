@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ricardo/Git_Repos/PCB/Pardo/Pardo.sch)
-    (date "Sun 23 Aug 2020 12:38:17 PM CST")
+    (date "Sun 23 Aug 2020 12:39:44 PM CST")
     (tool "Eeschema 5.0.2+dfsg1-1~bpo9+1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
